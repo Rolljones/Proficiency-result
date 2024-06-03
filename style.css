@@ -1,0 +1,157 @@
+body {
+  background-color: #969696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  margin-top: 70px;
+}
+div.result {
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  left: 330px;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+div.gradient {
+  width: 350px;
+  height: 450px;
+  background: linear-gradient(to bottom, #7a2cc9, #2c01a2);
+  position: absolute;
+  right: 350px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+}
+
+div.gradient > h3,
+h2 {
+  margin-top: 30px;
+}
+
+div.circle {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(to bottom, #440f78, #7753da);
+  margin-left: 85px;
+  border-radius: 50%;
+}
+
+div.circle > p,
+h1 {
+  color: #fff;
+  display: inline-block;
+}
+
+div.circle > h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 10px;
+}
+
+div.circle > p {
+  position: relative;
+  bottom: 30px;
+  font-size: smaller;
+}
+
+div.result > h3 {
+  padding-left: 60px;
+  margin-top: 30px;
+  color: #36454f;
+}
+
+div.result > button {
+  background-color: #36454f;
+  padding: 14px 99px;
+  margin-left: 61px;
+  margin-top: 17px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+}
+
+div.result > button:hover {
+  background-color: #305e8d;
+}
+
+#red {
+  background-color: rgba(171, 39, 79, 0.1);
+  padding: 13px 34px;
+  display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+#red > span {
+  word-spacing: 45px;
+  color: rgb(171, 39, 79);
+}
+
+#yellow {
+  display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(228, 208, 10, 0.1);
+  padding: 13px 36px;
+  position: relative;
+}
+
+#yellow > span {
+  word-spacing: 45px;
+  color: rgb(228, 208, 10);
+}
+
+#green {
+  display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 204, 204, 0.1);
+  padding: 13px 40px;
+}
+
+#green > span {
+  word-spacing: 45px;
+  color: rgb(0, 204, 204);
+}
+
+#purple {
+  display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(111, 0, 255, 0.1);
+  padding: 13px 40px;
+  position: relative;
+}
+
+#purple > span {
+  word-spacing: 45px;
+  color: rgb(111, 0, 255);
+}
+
+i {
+  margin-right: 9px;
+  position: relative;
+  top: 2.5px;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+}
